@@ -23,7 +23,7 @@ echo -i '$a src-git DDNS-GO https://github.com/sirpdboy/luci-app-ddns-go' feeds.
 echo -i '$a src-git smartdns https://github.com/pymumu/luci-app-smartdns/tree/lede' feeds.conf.default
 echo -i '$a src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' feeds.conf.default
 echo -i '$a src-git zerotier https://github.com/rufengsuixing/luci-app-zerotier' feeds.conf.default
-sed -i 's/vpn/services/g' package/zerotier/luci-app-zerotier/luasrc/controller/*.lua
-sed -i 's/vpn/services/g' package/zerotier/luci-app-zerotier/luasrc/model/cbi/zerotier/*.lua
-sed -i 's/vpn/services/g' package/zerotier/luci-app-zerotier/luasrc/view/zerotier/*.htm
+#sed -i 's/vpn/services/g' package/zerotier/luci-app-zerotier/luasrc/controller/*.lua
+#sed -i 's/vpn/services/g' package/zerotier/luci-app-zerotier/luasrc/model/cbi/zerotier/*.lua
+#sed -i 's/vpn/services/g' package/zerotier/luci-app-zerotier/luasrc/view/zerotier/*.htm
 
